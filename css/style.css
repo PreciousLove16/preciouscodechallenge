@@ -1,14 +1,14 @@
 body{
     background-image: url('/assets/bg-intro-desktop.png');
     background-color: palevioletred;
-    background-position: center;
-    align-items: center;
-    justify-content: center;
+    background-position: justify;
+    align-items: justify;
+    justify-content: justify;
     padding-bottom: 500px;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    max-width: fit-content;
+    
     
 }
 
@@ -21,6 +21,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     margin-top: 0;
     width: 400px;
+    background-color: blueviolet;
 
 }
 
@@ -40,6 +41,7 @@ body{
         border-radius: 5px;
         background-attachment: fixed;
         margin-top: 0;
+        background-color: aqua;
        
   
     }
@@ -93,7 +95,9 @@ body{
     font-size: 10px;
 }
 .container{
-    margin-left: 5em;
+    margin-left: 15em;
     margin-bottom: 5em;
- 
+ background-color: red;
+
+ display: inline;
 }
