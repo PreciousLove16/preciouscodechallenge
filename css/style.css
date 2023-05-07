@@ -1,6 +1,6 @@
 body{
     background-image: url('/assets/bg-intro-desktop.png');
-    background-color: palevioletred;
+    background-color: rgb(194, 53, 100);
     background-position: justify;
     align-items: justify;
     justify-content: justify;
@@ -8,21 +8,26 @@ body{
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    width: 30em;
-    
-    
-}
-
-.paragraph-one{
+max-width: max-content; 
+max-height: max-content;
    
+      font-family: 'Poppins', sans-serif;   
+}
+@font-face {
+    font-family: 'poppins';
+    src: url('./Poppins-Medium.ttf');
+    format('woff2')
+}
+.paragraph-one{
     display: inline-block;
     margin-left: 7em;
     color: white;
     margin-right: 0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     margin-top: 0;
-    width: 25em;
+    width: 30em;
     background-color: blueviolet;
+    
+    margin-bottom: 20em;
 
 }
 
@@ -32,50 +37,44 @@ body{
     display: inline-block;
     margin-left: 0;
     background-color: white;
-    width:24em;
-    height: 25em;
-    box-sizing: border-box;
-  
-  
-        padding: 3em; 
+    width:19em;
+    height: 20em;
+    align-items: center;
+        padding: 1.2em; 
         border-radius: 5px;
         background-attachment: fixed;
-        margin-top: 0;
+        margin-top: 1.5em;
     }
-    
-
 .trial2{
-    border-color: blue;
+    border-color: rgb(15, 15, 133);
     text-align: center;
-    border-style: outset;
-    background-color: blue;
+   border-radius: 0.300em;
+    background-color: rgb(15, 15, 133);
     color: white;
-    width: 23.5em;
-    margin-top: 17em;
-    margin-left: 32.5em;
-    display: block;
+    width: 100em;
+    margin-top: 30em;
+    margin-left: 37em;
    
+    display: inline;
+    padding: 0.500em;
+    font size:0.575em;  
 }
-
-
-
 #name{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    border-radius: 0.175em;
-    
+    margin-top: 0.575em;
+    margin-bottom: 0.575em;
+    border-radius: 0.350em;
+    padding: 0.375em;
     width: 20em;
-    height: 1.875em;
+border-color: azure;
+border-style: groove;
+   
 }
 
 .paragraph{
     font-size: 10px;
 }
 .container{
-  
  background-color: red;
- width: 65em;
- 
-
- 
+width: 65em;
+margin-top: 10em;
 }
