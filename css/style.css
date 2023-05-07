@@ -6,7 +6,7 @@ body{
     justify-content: justify;
   
     background-attachment: fixed;
-  
+    display: flex;
     flex-direction: column;
     
     
@@ -95,9 +95,8 @@ body{
     font-size: 10px;
 }
 .container{
-    margin-left: 15em;
-    margin-bottom: 5em;
+  
  background-color: red;
 
- display: inline;
+ display: inline-block;
 }
