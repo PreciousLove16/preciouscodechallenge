@@ -2,11 +2,12 @@ body{
     background-image: url('/assets/bg-intro-desktop.png');
     background-color: rgb(249, 139,136);
     background-position: justify;
-    align-items: justify;
+    align-items: center;
     justify-content: justify;
   
     background-attachment: fixed;
     display: flex;
+    flex-direction: row;
     flex-direction: column;
 max-width: max-content; 
 max-height: max-content;
@@ -25,7 +26,7 @@ max-height: max-content;
     margin-top: 0;
     width: 20em;
   
-    margin-bottom: 10em;
+    
    
 
 }
@@ -33,6 +34,7 @@ max-height: max-content;
 
 .display{
     display: flex;
+    flex-wrap: wrap;
     display: inline-block;
     margin-left: 0;
     background-color: white;
@@ -74,8 +76,9 @@ align-items: center;
     font-size: 8px;
 }
 .container{
-width: 50em;
+width: 45em;
 margin-top: 5em;
 margin-left: 5em;
-display: inline;
+display: flexbox;
+flex-wrap: wrap;
 }
