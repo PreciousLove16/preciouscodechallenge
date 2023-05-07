@@ -1,6 +1,6 @@
 body{
     background-image: url('/assets/bg-intro-desktop.png');
-    background-color: rgb(194, 53, 100);
+    background-color: rgb(249, 139,136);
     background-position: justify;
     align-items: justify;
     justify-content: justify;
@@ -20,14 +20,13 @@ max-height: max-content;
 }
 .paragraph-one{
     display: inline-block;
-    margin-left: 7em;
     color: white;
     margin-right: 0;
     margin-top: 0;
-    width: 30em;
-    background-color: blueviolet;
-    
-    margin-bottom: 20em;
+    width: 20em;
+  
+    margin-bottom: 10em;
+   
 
 }
 
@@ -38,7 +37,7 @@ max-height: max-content;
     margin-left: 0;
     background-color: white;
     width:19em;
-    height: 20em;
+    height: 16em;
     align-items: center;
         padding: 1.2em; 
         border-radius: 5px;
@@ -46,14 +45,14 @@ max-height: max-content;
         margin-top: 1.5em;
     }
 .trial2{
-    border-color: rgb(15, 15, 133);
+    border-color: hsl(248, 32%, 49%);
     text-align: center;
    border-radius: 0.300em;
-    background-color: rgb(15, 15, 133);
+    background-color: hsl(248, 32%, 49%);
     color: white;
     width: 100em;
     margin-top: 30em;
-    margin-left: 37em;
+    margin-left: 20em;
    
     display: inline;
     padding: 0.500em;
@@ -67,14 +66,16 @@ max-height: max-content;
     width: 20em;
 border-color: azure;
 border-style: groove;
+align-items: center;
    
 }
 
 .paragraph{
-    font-size: 10px;
+    font-size: 8px;
 }
 .container{
- background-color: red;
-width: 65em;
-margin-top: 10em;
+width: 50em;
+margin-top: 5em;
+margin-left: 5em;
+display: inline;
 }
